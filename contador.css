@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+header, footer {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+#contador {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#texto {
+    width: calc(100% - 20px);
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; 
+}
+
+#resultado {
+    font-size: 18px;
+    color: #333;
+}
+
+footer {
+    margin-top: 400px; 
+}
+
+footer h3 {
+    color: #ccc;
+}
