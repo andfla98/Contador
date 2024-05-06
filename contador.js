@@ -16,3 +16,12 @@ textoArea.addEventListener("input", () => {
     const numEspacos = texto.match(/ /g)?.length || 0;
     resultadoEspacos.textContent = numEspacos;
 });
+
+const botaoLimpar = document.getElementById("limparTexto");
+botaoLimpar.addEventListener("click", () => {
+    
+    textoArea.value = "";
+    resultadoCaracteres.textContent = 0;
+    resultadoPalavras.textContent = 0;
+    resultadoEspacos.textContent = 0;
+});
