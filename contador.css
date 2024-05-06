@@ -29,6 +29,9 @@ header, footer {
     border-radius: 5px;
     resize: vertical; 
 }
+header h3 {
+fontstyle: italic;
+}
 
 #resultado {
     font-size: 18px;
@@ -47,4 +50,7 @@ footer h3 {
     margin-left: 500px;
     background-color: #070606;
     color: white;
+}
+header h2 {
+   font-family: cursive;
 }
